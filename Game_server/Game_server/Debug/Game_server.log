@@ -1,0 +1,34 @@
+﻿  pch.cpp
+  CommonClass.cpp
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.h(60,20): warning C4251: 'cClientInfo::players': class 'std::map<int,cClient,std::less<int>,std::allocator<std::pair<const int,cClient>>>'에서는 class 'cClientInfo'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.h(60): message : 'std::map<int,cClient,std::less<int>,std::allocator<std::pair<const int,cClient>>>' 선언을 참조하십시오.
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.cpp(4,10): warning C4273: 'cClient::cClient': dll 연결이 일치하지 않습니다.
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.h(30,2): message : '{ctor}'의 이전 정의를 참조하십시오.
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.cpp(8,11): warning C4273: 'cClient::~cClient': dll 연결이 일치하지 않습니다.
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.h(31,3): message : '{dtor}'의 이전 정의를 참조하십시오.
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.cpp(12,14): warning C4273: 'cClientInfo::cClientInfo': dll 연결이 일치하지 않습니다.
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.h(57,2): message : '{ctor}'의 이전 정의를 참조하십시오.
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.cpp(16,15): warning C4273: 'cClientInfo::~cClientInfo': dll 연결이 일치하지 않습니다.
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.h(58,3): message : '{dtor}'의 이전 정의를 참조하십시오.
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.cpp(21,14): warning C4273: 'CommonClass::CommonClass': dll 연결이 일치하지 않습니다.
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.h(96,2): message : '{ctor}'의 이전 정의를 참조하십시오.
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.cpp(25,15): warning C4273: 'CommonClass::~CommonClass': dll 연결이 일치하지 않습니다.
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.h(97,3): message : '{dtor}'의 이전 정의를 참조하십시오.
+  DBConnector.cpp
+D:\CPP_Server_Portfolio\Game_server\Game_server\DBConnector.h(3,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  IocpBase.cpp
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.h(60,20): warning C4251: 'cClientInfo::players': class 'std::map<int,cClient,std::less<int>,std::allocator<std::pair<const int,cClient>>>'에서는 class 'cClientInfo'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.h(60): message : 'std::map<int,cClient,std::less<int>,std::allocator<std::pair<const int,cClient>>>' 선언을 참조하십시오.
+D:\CPP_Server_Portfolio\Game_server\Game_server\IocpBase.cpp(166,56): warning C4474: 'printf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+D:\CPP_Server_Portfolio\Game_server\Game_server\IocpBase.cpp(166,56): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+D:\CPP_Server_Portfolio\Game_server\Game_server\IocpBase.cpp(202,56): warning C4474: 'printf_s' : 서식 문자열에 전달된 인수가 너무 많습니다.
+D:\CPP_Server_Portfolio\Game_server\Game_server\IocpBase.cpp(202,56): message : 자리 표시자 및 해당 매개 변수에는 variadic 인수가 0개 필요하지만 1개가 제공되었습니다.
+  main.cpp
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.h(60,20): warning C4251: 'cClientInfo::players': class 'std::map<int,cClient,std::less<int>,std::allocator<std::pair<const int,cClient>>>'에서는 class 'cClientInfo'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.h(60): message : 'std::map<int,cClient,std::less<int>,std::allocator<std::pair<const int,cClient>>>' 선언을 참조하십시오.
+D:\CPP_Server_Portfolio\Game_server\Game_server\DBConnector.h(3,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  MainIocp.cpp
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.h(60,20): warning C4251: 'cClientInfo::players': class 'std::map<int,cClient,std::less<int>,std::allocator<std::pair<const int,cClient>>>'에서는 class 'cClientInfo'의 클라이언트에서 DLL 인터페이스를 사용하도록 지정해야 합니다.
+D:\CPP_Server_Portfolio\Game_server\Game_server\CommonClass.h(60): message : 'std::map<int,cClient,std::less<int>,std::allocator<std::pair<const int,cClient>>>' 선언을 참조하십시오.
+D:\CPP_Server_Portfolio\Game_server\Game_server\DBConnector.h(3,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'mysql.h': No such file or directory
+  코드를 생성하고 있습니다...
